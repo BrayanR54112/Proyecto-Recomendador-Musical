@@ -191,12 +191,29 @@ class RecomendadorMusical:
         self.recomendaciones.vaciar()
 
 def main():
-    # Crear una instancia del recomendador musical
+    
     recomendador = RecomendadorMusical()
 
     # Agregar canciones para diferentes estados emocionales
     recomendador.agregar_cancion("feliz", "Vivir Mi Vida - Marc Anthony")
     recomendador.agregar_cancion("feliz", "La Bicicleta - Shakira ft. Carlos Vives")
-    recomendador.agregar_cancion("triste", "Día de Enero - Shakira")
-    recomendador.agregar_cancion("triste", "Te Dejo Libre - Los Ángeles Azules ft. Rubén Albarrán")
-    recomendador.agregar_cancion("energético", "
+    recomendador.agregar_cancion("triste", " Condor Herido - Diomedes Diaz ")
+    recomendador.agregar_cancion("triste", "Era Como Yo - Diomedes Diaz")
+    recomendador.agregar_cancion("energético", " Vital - Crudo means raw ")
+        # Leer el estado emocional del usuario desde la entrada estándar
+    estado_emocional = input("¿Cómo te sientes hoy? (ej. feliz, triste, energético): ").strip().lower()
+    
+    # Recomendar canciones basadas en el estado emocional del usuario
+    canciones_recomendadas = recomendador.recomendar_canciones(estado_emocional)
+    
+    if canciones_recomendadas:
+        print(f"\nRecomendaciones si estás {estado_emocional}:")
+        for cancion in canciones_recomendadas:
+            print(f"- {cancion}")
+    else:
+        print(f"No hay recomendaciones para el estado {estado_emocional}.")
+
+    # Vaciar recomendaciones después de mostrar las recomendaciones
+    recomendador.vaciar_recomendaciones()
+    
+main()
