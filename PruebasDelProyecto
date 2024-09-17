@@ -1,0 +1,25 @@
+## Pruebas del Proyecto
+
+Las pruebas del proyecto se han realizado utilizando el framework pytest. Comentaremos los casos de prueba propuestos y su objetivo.
+
+       Casos de Prueba Implementados
+
+1. HashMap :
+    1. Agregar y Obtener Pares**: Verifica que los pares clave-valor se agreguen y obtengan correctamente.
+    2. Contar Elementos**: Asegura que el método `contar` devuelve el número correcto de pares clave-valor.
+    3. Eliminar Clave**: Comprueba que un par clave-valor se elimine correctamente.
+    4.Redimensionar**: Verifica que el `HashMap` se redimensione y redistribuya correctamente.
+
+2. RecomendadorMusical:
+   - 1. Agregar y Recomendar Canciones: Verifica que las canciones se agreguen correctamente y se recomienden según el estado emocional.
+   - 2. Vaciar Recomendaciones: Asegura que todas las recomendaciones se vacíen correctamente.
+
+      Herramienta de Testing
+
+Las pruebas fueron implementadas utilizando PyTest. Los archivos de prueba están en los siguientes archivos:
+
+- "test_hashmap.py": Contiene pruebas para la clase `HashMap`.
+- "test_recomendador.py": Contiene pruebas para la clase `RecomendadorMusical`.
+
+Para ejecutar las pruebas hay que tener instalado pytest y ejecutar el comando pytest en la terminal, esto ejecuta automaticamente las pruebas que inician con el nombre test...
+
