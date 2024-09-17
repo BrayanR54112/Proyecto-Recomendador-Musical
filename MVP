@@ -1,0 +1,29 @@
+# Proyecto Recomendador Musical
+
+## Descripción del MVP
+
+Este proyecto es un recomendador musical que utiliza una estructura de datos HashMap para gestionar las recomendaciones de canciones basadas en el estado emocional del usuario. 
+
+## Tecnologías Utilizadas
+
+- **Lenguaje**: Python
+- **Framework de Testing**: PyTest
+- **Repositorio de Código**: https://github.com/BrayanR54112/Proyecto-Recomendador-Musical
+
+## Métodos Implementados
+
+- `contar()`
+- `redimensionar(nuevo_tamano)`
+- `eliminar_clave(llave)`
+- `fusionar(otro_hashmap)`
+- `vaciar()`
+
+## Referencias
+- **Herramientas**:
+  - **ChatGPT de OpenAI**: Utilizado para asistencia en la implementación del código. 
+    - **Prompt**: Qué error tengo a la hora de implementar el metódo agregar canciones en la clase RecomendadorMusical y ayuda con el calculo del orden de magnitud en notación Big-O en el método obtener. 
+    - **Respuesta**: Proporcionó los errores de implementación y el cálculo de complejidad.
+
+## Pruebas
+
+- Utilice PyTest para ejecutar las pruebas unitarias. Asegúrese de que todas las funciones y métodos se prueben adecuadamente.
