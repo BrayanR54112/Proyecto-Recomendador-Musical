@@ -1,5 +1,5 @@
 import pytest
-from avance1 import HashMap, NM  
+from Recomendador import HashMap, NM  
 
 def test_poner_y_obtener():
     hm = HashMap()
