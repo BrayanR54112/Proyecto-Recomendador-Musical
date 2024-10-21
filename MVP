@@ -1,6 +1,6 @@
             Proyecto Recomendador Musical
 
-  Este proyecto es un recomendador musical que utiliza una estructura de datos HashMap para gestionar las recomendaciones de canciones basadas en el estado emocional del usuario. 
+  Este proyecto es un recomendador musical que utiliza varias estructuras de datos, incluyendo HashMap y grafos, para gestionar recomendaciones de canciones basadas en el estado emocional del usuario y las conexiones entre canciones por artistas.
 
   Tecnologías Utilizadas
 
