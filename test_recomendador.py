@@ -1,5 +1,5 @@
 import pytest
-from avance1 import RecomendadorMusical 
+from Recomendador import RecomendadorMusical 
 
 def test_agregar_y_recomendar():
     recomendador = RecomendadorMusical()
